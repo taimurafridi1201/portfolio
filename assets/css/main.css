@@ -1627,3 +1627,16 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* ===============================
+   Disabled Portfolio Store Link
+================================ */
+
+.portfolio .portfolio-item .portfolio-info .details-link.disabled {
+  pointer-events: none; 
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link.disabled:hover {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
